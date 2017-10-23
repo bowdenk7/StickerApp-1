@@ -9,7 +9,7 @@ router.get('/', function stickerRouteBrowse(req, res) {
     
     const renderData = { pageTitle: 'Browse', entry: 'browse', cookedSentiment: getSentimentAnalysis() };
     res.render('index', renderData);
-});
+}); 
 
 function getSentimentAnalysis() {
     // Demo code below
